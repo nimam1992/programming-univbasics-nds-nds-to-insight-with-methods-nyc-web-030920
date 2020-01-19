@@ -37,7 +37,6 @@ while director_index < nds.length do
   result[d_name] = 0
   movie_index=0
     result[d_name] += gross_for_director(nds,director_index,movie_index)
-    movie_index+=1
     director_index+=1
   end
 result
